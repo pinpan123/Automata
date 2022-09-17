@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import ttest_ind
-import statsmodels.formula.api as smf
+#import statsmodels.formula.api as smf
 
 model = pickle.load(open('random_forest_regression_model (2).pkl', 'rb'))
 
