@@ -8,7 +8,7 @@ import seaborn as sns
 from scipy.stats import ttest_ind
 #import statsmodels.formula.api as smf
 
-model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+model = pickle.load(open('random_forest_regression_model (2).pkl', 'rb'))
 
 st.title("Selling Price Predictor ")
 st.markdown("##### If you are a potential car seller\n##### Try evaluating the price you can get on your car here! ")
